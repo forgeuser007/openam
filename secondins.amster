@@ -1,0 +1,15 @@
+install-openam \
+--serverUrl http://openam1.example.com:7080/openam \
+--cookieDomain example.com \
+--adminPwd password \
+--cfgStoreHost 192.168.56.5 \
+--cfgStoreDirMgr "cn=dirmgr" \
+--cfgStoreDirMgrPwd password \
+--cfgStoreAdminPort 1444 \
+--cfgStorePort 1389 \
+--cfgStoreRootSuffix 'ou=am-config' \
+--cfgStore dirServer \
+--cfgDir /opt/openam \
+--pwdEncKey 'XnDXb8pSYAdsW4n2xsl/CRCuER2x/KGQ' \
+--acceptLicense
+:exit
